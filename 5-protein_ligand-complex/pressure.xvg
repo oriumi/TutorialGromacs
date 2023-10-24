@@ -1,0 +1,35 @@
+# This file was created Thu Aug 10 19:07:14 2023
+# Created by:
+#                       :-) GROMACS - gmx energy, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/insilitox/Documentos/gromacs-tutorial/5-test
+# Command line:
+#   gmx energy -f npt.edr -o pressure.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(bar)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Pressure"
+    0.000000  -318.641418
+    1.000000  -629.643860
+    2.000000  -247.810425
+    3.000000  -331.206818
+    4.000000  -279.578094
+    5.000000  -303.918152
+    6.000000  -106.980873
+    7.000000   12.220082
+    8.000000  -178.057571
+    9.000000    8.282573
+   10.000000  -49.323193

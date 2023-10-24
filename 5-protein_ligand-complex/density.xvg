@@ -1,0 +1,35 @@
+# This file was created Thu Aug 10 19:07:30 2023
+# Created by:
+#                       :-) GROMACS - gmx energy, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/insilitox/Documentos/gromacs-tutorial/5-test
+# Command line:
+#   gmx energy -f npt.edr -o density.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GROningen MAchine for Chemical Simulation
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kg/m^3)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Density"
+    0.000000  991.634644
+    1.000000  1003.658936
+    2.000000  1013.117676
+    3.000000  1019.954041
+    4.000000  1024.884277
+    5.000000  1024.579834
+    6.000000  1029.179321
+    7.000000  1030.458008
+    8.000000  1029.416504
+    9.000000  1032.858276
+   10.000000  1031.517700
