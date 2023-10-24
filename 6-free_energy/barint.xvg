@@ -1,0 +1,38 @@
+# This file was created Thu Aug 17 18:48:58 2023
+# Created by:
+#                        :-) GROMACS - gmx bar, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/insilitox/Documentos/gromacs-tutorial/6-free_energy
+# Command line:
+#   gmx bar -f md0.xvg md10.xvg md11.xvg md12.xvg md13.xvg md14.xvg md15.xvg md16.xvg md17.xvg md18.xvg md19.xvg md1.xvg md20.xvg md2.xvg md3.xvg md4.xvg md5.xvg md6.xvg md7.xvg md8.xvg md9.xvg -o -oi
+# gmx bar is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Free energy integral"
+@    xaxis  label "\xl\f{}"
+@    yaxis  label "\xD\f{}G (kT)"
+@TYPE xy
+     0  0.00
+     1  0.08
+     2  0.14
+     3  0.20
+     4  0.24
+     5  0.26
+     6  0.26
+     7  0.24
+     8  0.18
+     9  0.08
+    10 -0.08
+    11 -0.31
+    12 -0.64
+    13 -1.08
+    14 -1.64
+    15 -2.25
+    16 -2.79
+    17 -3.19
+    18 -3.47
+    19 -3.63
+    20 -3.68

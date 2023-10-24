@@ -1,0 +1,2 @@
+- Crie uma pasta chamada MDP e baixe os 4 arquivos necessários que estão disponíveis no tutorial do gromacs, e coloque na pasta também o arquivo write_mdp.pl. Dentro dela execute o script perl para os 4 arquivos.
+- Para criar os 20 arquivos Lambda levou cerca de 1h e 38min
